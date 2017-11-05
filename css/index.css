@@ -124,8 +124,8 @@
 			padding: 0;
 			margin-right: 10px;
 		}
-		.articleGender {
-		    width: 30px;
+		.articleLevel {
+		    /*width: 35px;*/
 		    height: 16px;
 		    float: left;
 		    line-height: 16px;
@@ -135,11 +135,8 @@
 		    margin-top: 10px;
 		    margin-left: 8px;
 		    color: black;
-		    /*background-size: cover;*/
 		}
-		.article .contentHerf {
-			display: block;
-		}
+		
 		.article .content{
 			margin-bottom: 10px;
 			font-size: 16px;
@@ -156,30 +153,19 @@
 			line-height: 24px;
 			color: #0d79d1;
 		}
-		.stats {
-			font-size: 12px;
-			color: #999;
-			margin:20px 0 10px;
-		}
-		.stats i {
-		    font-style: normal;
-		}
-		.stats a {
-			color: #999;
-		}
-		.stats-buttons {
+		.tag-list {
 		    float: left;
 		}
-		.stats-buttons ul {
+		.tag-list ul {
 		    margin-top: 5px;
 		    margin-left: 8px;
 		}
-		.stats-buttons ul li {
+		.tag-list ul li {
 		    float: left;
 		    margin-right: 20px;
 		    text-align: center;
 		}
-		.stats-buttons ul li a {
+		.tag-list ul li a {
 		    display: block;
 		    text-align: center;
 		}
@@ -216,22 +202,8 @@
 		    width: 24px;
 		    height: 24px;
 		    margin-left: 10px;
-		    /*text-indent: -9999px;*/
-		    /*background-image: url(img/icongroup.png);*/
 		    background-repeat: no-repeat;
 		    cursor: pointer;
-		}
-		.single-share .share-wechat {
-		    background-position: 0 -79px;
-		}
-		.single-share .share-qq {
-		    background-position: 0 -151px;
-		}
-		.single-share .share-qzone {
-		    background-position: 0 -127px;
-		}
-		.single-share .share-weibo {
-		    background-position: 0 -103px;
 		}
 		.single-clear {
 		    clear: both;

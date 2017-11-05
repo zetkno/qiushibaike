@@ -29,34 +29,35 @@
 				<div id="content-left" class="col1">
 					
 					<!-- 笑话卡片 -->
-					{{each result}}
+					
 					<div class="article block">
 						<div class="author clearfix">
-							<a href=""><img src="{{html avatar}}" alt=""></a>
+							<a href=""><img src="{{html avatar}}" alt="用户头像"></a>
 							<a href="">
-								<h2>{{html userName}}</h2>
+								<h2>用户名</h2>
 							</a>
-							<div class="articleLevel">{{html level}}</div>
+							<div class="articleLevel">lv1.初出茅庐</div>
 						</div>
 						<a href="#" class="contentHerf">
 							<div class="content">
-								<span>{{html content}}</span>
+								<span>笑话内容笑话内容笑话内容笑话内容笑话内容笑话内容笑话内容笑话内容笑话内容笑话内容笑话内容笑话内容笑话内容笑话内容笑话内容笑话内容笑话内容笑话内容
+								笑话内容笑话内容笑话内容笑话内容笑话内容笑话内容笑话内容笑话内容笑话内容</span>
 								<span class="contentForAll">查看全文</span>
 							</div>
 						</a>
 
-						<div class="stats-buttons bar clearfix">
-							<ul class="clearfix">
-								<li class="up">
-									<a href="" class="tag1">
-									{{html tag}}
+						<div class="tag-list">
+							<ul>
+								<li>
+									<a href="" class="tag">
+										标签
 									</a>
 								</li>
-								<!--<li class="down">
-									<a href="">
+								<li>
+									<a href="" class="tag">
 									程序员
 									</a>
-								</li>-->
+								</li>
 								<!--<li class="comments">
 									<a href="">
 									举报
@@ -65,13 +66,13 @@
 							</ul>
 						</div>
 						<div class="single-share">
-							<a class="icon"><i class="fa fa-thumbs-o-up"></i>{{html niceNum}}</a>
-							<a class="icon"><i class="fa fa-thumbs-o-down"></i>{{html unniceNum}}</a>
-							<a class="icon"><i class="fa fa-star"></i>{{html collectionNum}}</a>
+							<a class="icon"><i class="fa fa-thumbs-o-up"></i></a>
+							<a class="icon"><i class="fa fa-thumbs-o-down"></i></a>
+							<a class="icon"><i class="fa fa-star"></i></a>
 							<a class="icon"><i class="fa fa-share"></i></a>
 						</div>
 						<div class="single-clear"></div>
-						{{each hotComments}}
+						
 						<a href="" class="indexGodCmt" target="_blank">
 							<!--<div class="comment">-->
 								<span class="cmt-name">评论者：</span>
@@ -80,9 +81,9 @@
 								</div>
 							<!--</div>-->
 						</a>
-						{{/each}}
+						
 					</div>
-					{{/each}}
+					
 
 					<!-- 笑话卡片 -->
 					<div class="article block">
@@ -105,7 +106,7 @@
 						<div class="stats-buttons bar clearfix">
 							<ul class="clearfix">
 								<li class="up">
-									<a href="" class="voting">
+									<a href="" class="tag">
 									<i>标签1</i>
 									<span class="number hidden">508</span>
 								</a>
